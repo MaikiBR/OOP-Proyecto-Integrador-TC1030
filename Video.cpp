@@ -22,3 +22,31 @@ Video::Video(string _ID, string _nombreVideo, string _tipoVideo, string _genero,
   this->anioLanzamiento = _anioLanzamiento;
   this->duracion = _duracion;
 }
+
+void Video::setID(string _ID){
+    ID = _ID;
+}
+
+void Video::setnombreVideo(string _nombreVideo){
+    nombreVideo = _nombreVideo;
+}
+
+void Video::settipoVideo(string _tipoVideo){
+    tipoVideo = _tipoVideo;
+}
+
+void Video::setgenero(string _genero){
+    genero = _genero;
+}
+
+void Video::setcalificacion(float _calificacion){
+    calificacion = _calificacion;
+}
+
+void Video::setanioLanzamiento(int _anioLanzamiento){
+    anioLanzamiento = _anioLanzamiento;
+}
+
+void Video::setduracion(int _duracion){
+    duracion = _duracion;
+}
