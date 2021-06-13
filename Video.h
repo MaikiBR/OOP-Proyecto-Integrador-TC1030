@@ -14,3 +14,19 @@ class Video{
   public:
     Video();
     Video(string, string, string, string, int, int);
+  
+    void setID(string);
+    void setnombreVideo(string);
+    void settipoVideo(string);
+    void setgenero(string);
+    void setcalificacion(float);
+    void setanioLanzamiento(int);
+    void setduracion(int);
+  
+    string getID();
+    string getnombreVideo();
+    string gettipoVideo();
+    string getgenero();
+    float getcalificacion();
+    int getanioLanzamiento();
+    int getduracion();
