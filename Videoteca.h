@@ -8,3 +8,16 @@
 #include <fstream>
 
 using namespace std;
+
+class Videoteca{
+  protected:
+    Pelicula *peliculas;
+    Serie *series;
+    int npeliculas, nseries;
+  public:
+    Videoteca();
+    Videoteca(Pelicula *, Serie*, int, int);
+        
+    void mostrarVideoteca();
+};
+#endif
