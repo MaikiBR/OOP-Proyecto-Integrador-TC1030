@@ -7,3 +7,10 @@
 using namespace std;
 
 class Video{
+  protected:
+    string ID, nombreVideo, tipoVideo, genero;
+    float calificacion;
+    int anioLanzamiento, duracion;
+  public:
+    Video();
+    Video(string, string, string, string, int, int);
