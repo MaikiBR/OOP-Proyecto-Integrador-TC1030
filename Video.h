@@ -22,3 +22,16 @@ class Video{
     void setcalificacion(float);
     void setanioLanzamiento(int);
     void setduracion(int);
+
+    string getID();
+    string getnombreVideo();
+    string gettipoVideo();
+    string getgenero();
+    float getcalificacion();
+    int getanioLanzamiento();
+    int getduracion();
+
+    float operator + (float);
+    float calificaVideo(float);
+};
+#endif
