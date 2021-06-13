@@ -93,5 +93,9 @@ int main() {
   ESerie3T2E1.muestraDatosEp();
   ESerie3T2E2.muestraDatosEp();*/
   
+  // Creacion y despliegue de Videoteca (no se ha calificado ni las peliculas ni las series, por lo que se mostrara 0)
+  Videoteca vidt1(peliculas, series, 5, 3);
+  vidt1.mostrarVideoteca();
   
+  return 0;
 }
