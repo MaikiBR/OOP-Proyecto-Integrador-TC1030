@@ -103,5 +103,10 @@ int main() {
   peliculas[3]+5;
   peliculas[4]+3.75;
   
+  series[0].calificaSerie(5,4.75); //4.875
+  series[1].calificaSerie(5,4.9); //4.95
+  series[2].calificaSerie(4.5,3.5); //4
+  vidt1.mostrarVideoteca();
+  
   return 0;
 }
