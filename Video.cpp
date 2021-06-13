@@ -64,8 +64,7 @@ float Video::operator + (float calif){
 }
 
 float Video::calificaVideo(float _calificacion){
-    calificacion = _calificacion;
-    return calificacion;
-    cout<<"Calificacion asignada"<<endl;
+  calificacion = _calificacion;
+  cout<<"Calificacion asignada"<<endl;
+  return calificacion;
 }
-
