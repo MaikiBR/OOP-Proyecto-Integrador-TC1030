@@ -18,3 +18,4 @@ void Pelicula::muestraDatosP(){
   cout << "Calificacion de la pelicula: " << calificacion << endl;
   cout << "Anio de lanzamiento: " << anioLanzamiento << endl;
   cout << "Duracion: " << duracion << " minutos" << endl;
+}
