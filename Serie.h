@@ -18,3 +18,5 @@ class Serie:public Video{
     void calificaSerie(float,float);
     void muestraDatosS();
 };
+
+#endif
