@@ -30,3 +30,8 @@ class Video{
     float getcalificacion();
     int getanioLanzamiento();
     int getduracion();
+  
+    float operator + (float);
+    float calificaVideo(float);
+};
+#endif
