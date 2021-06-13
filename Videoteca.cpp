@@ -17,3 +17,17 @@ Videoteca::Videoteca(Pelicula *peliculas, Serie *series, int npeliculas, int nse
   this->npeliculas = npeliculas; 
   this->nseries = nseries;
 }
+
+void Videoteca::mostrarVideoteca(){
+  cout << "| VIDEOTECA |" << endl << endl;
+  cout << "| PELICULAS EN LA VIDEOTECA |" << endl;
+  for(int i=0; i<this->npeliculas; i++){
+      peliculas[i].muestraDatosP();
+      cout << "===============================================" << endl;
+  }
+  cout << "| SERIES EN LA VIDEOTECA |" << endl;
+  for(int i=0; i<this->nseries; i++){
+      series[i].muestraDatosS();
+      cout << "===============================================" << endl;
+  }
+}
