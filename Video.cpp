@@ -50,3 +50,22 @@ void Video::setanioLanzamiento(int _anioLanzamiento){
 void Video::setduracion(int _duracion){
     duracion = _duracion;
 }
+
+string Video::getID(){return this->ID;}
+string Video::getnombreVideo(){return this->nombreVideo;}
+string Video::gettipoVideo(){return this->tipoVideo;}
+string Video::getgenero(){return this->genero;}
+float Video::getcalificacion(){return this->calificacion;}
+int Video::getanioLanzamiento(){return this->anioLanzamiento;}
+int Video::getduracion(){return this->duracion;}
+
+float Video::operator + (float calif){
+  return this->calificaVideo(calif);
+}
+
+float Video::calificaVideo(float _calificacion){
+    calificacion = _calificacion;
+    return calificacion;
+    cout<<"Calificacion asignada"<<endl;
+}
+
