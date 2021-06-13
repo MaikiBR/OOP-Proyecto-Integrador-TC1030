@@ -28,7 +28,7 @@ void Episodio::setnumeroEp(int _numeroEp){
 
 void Episodio::setnombreEp(string _nombreEp){
     nombreEp = _nombreEp;
-  
+}
 void Episodio::setduracionEp(int _duracionEp){
     duracionEp = _duracionEp;
 }
