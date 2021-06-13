@@ -96,6 +96,12 @@ int main() {
   // Creacion y despliegue de Videoteca (no se ha calificado ni las peliculas ni las series, por lo que se mostrara 0)
   Videoteca vidt1(peliculas, series, 5, 3);
   vidt1.mostrarVideoteca();
+  // Se asigna calificacion a las peliculas y a las series (por temporada) y se muestra nuevamente la videoteca
+  peliculas[0]+4;
+  peliculas[1]+4.5;
+  peliculas[2]+4;
+  peliculas[3]+5;
+  peliculas[4]+3.75;
   
   return 0;
 }
