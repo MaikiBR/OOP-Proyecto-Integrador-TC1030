@@ -5,5 +5,9 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
+class Pelicula:public Video{
+ public:
+    Pelicula();
+};
 
 #endif
