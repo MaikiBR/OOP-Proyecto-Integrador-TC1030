@@ -57,5 +57,40 @@ int main() {
   episodios2[2] = ESerie2T2E1;
   episodios2[3] = ESerie2T2E2;
   Serie Serie2("VIDS-2-2021", "The Mandalorian", "Serie", "Space western", episodios2, 4, 2019, 2, 2);
+  
+  Episodio ESerie3T1E1(1,1,"LOS TRES ROBOTS",12);
+  Episodio ESerie3T1E2(1,2,"MAS ALLA DE LA GRIETA",17);
+  Episodio ESerie3T2E1(2,1,"Servicio al cliente automatizado",12);
+  Episodio ESerie3T2E2(2,2,"Hielo",13);
+  Episodio * episodios3 = new Episodio[4];
+  episodios3[0] = ESerie3T1E1;
+  episodios3[1] = ESerie3T1E2;
+  episodios3[2] = ESerie3T2E1;
+  episodios3[3] = ESerie3T2E2;
+  Serie Serie3("VIDS-3-2021", "Love, Death & Robots", "Serie", "Animación para adultos", episodios3, 4, 2019, 2, 2);
 
+  Serie * series = new Serie[3];
+  series[0] = Serie1;
+  series[1] = Serie2;
+  series[2] = Serie3;
+    
+  // Desplegar series
+  /*Serie1.muestraDatosS();
+  ESerie1T1E1.muestraDatosEp();
+  ESerie1T1E2.muestraDatosEp();
+  ESerie1T2E1.muestraDatosEp();
+  ESerie1T2E2.muestraDatosEp();
+  cout << "---------------------------------------------------------"<< endl;
+  Serie2.muestraDatosS();
+  ESerie2T1E1.muestraDatosEp();
+  ESerie2T1E2.muestraDatosEp();
+  ESerie2T2E1.muestraDatosEp();
+  ESerie2T2E2.muestraDatosEp();
+  cout << "---------------------------------------------------------"<< endl;
+  Serie3.muestraDatosS();
+  ESerie3T1E1.muestraDatosEp();
+  ESerie3T1E2.muestraDatosEp();
+  ESerie3T2E1.muestraDatosEp();
+  ESerie3T2E2.muestraDatosEp();*/
+  
 }
